@@ -319,7 +319,82 @@ footer{
    width: 90%;
    margin: 5%;
    display: flex;
-   flex-direction: column;   
+   flex-direction: column;
+  }
+
+  .conteudo-card {
+    padding: 2%;
+  }
+
+  .link{
+    display: flex;
+    align-self: center;
+    margin: 5%;
+  }
+
+  .savannah{
+    display: flex;
+    width: 100%;
+  }
+
+  footer{
+    margin: 5%;
+    padding: 1%;
+    text-align: center;
+    align-items: center;
+    align-self: center;
+    position: relative;
+  }
+
+  .container_alunos {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  a .container_alunos {
+    align-content: center;
+  }
+}
+
+@media (max-width: 920px)
+{
+  html{
+    font-size: 16px;
+  }
+
+  body {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  header{    
+    position: relative;    
+  }
+
+  .btn-mobile{
+    display: block;
+  }
+
+  .item-nav{
+    display: none;
+  }
+
+  .text-banner {
+    text-align: justify;
+  }
+
+  .container-cards{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .cards{
+   width: 90%;
+   margin: 5%;
+   display: flex;
+   flex-direction: column;
   }
 
   .conteudo-card {
