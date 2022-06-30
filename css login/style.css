@@ -17,6 +17,69 @@ body {
   background-image: url(../img/fundo3.webp);
 }
 
+header{
+  width: 100vw;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  text-decoration: none;
+  background-color: #89CFF0;
+  position: absolute;
+  position: fixed;
+}
+
+.logo img{
+  width: 100px;
+  justify-content: center;
+}
+
+.logo p{
+  color: #1E62D0;
+  align-items: center;
+  text-align: center;
+}
+
+.txt-logo span{
+  color: #DA2614;  
+}
+
+.nav ul{
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  list-style: none;
+  box-sizing: border-box;
+  color: black;
+}
+
+.item-nav{
+  border: 1px solid;
+  border-radius: 16px;
+  padding: 6px 10px;
+  background-color: #A1CAF1;
+  list-style: none;
+}
+
+.item-nav:hover{
+  background-color: gray;
+  color: #EBB20D;
+}
+
+nav:hover{
+  background-color: black;
+  cursor: pointer;
+}
+
+li a{
+  text-decoration: none;
+}
+
+.btn-mobile{
+  display: none;
+}
+
 #login {
   display: flex;
   align-items: center;
@@ -102,4 +165,36 @@ body {
   opacity: 0.8;
   color: #fff;
   text-decoration: none;
+}
+
+footer{
+  height: auto;
+  margin: auto;
+  background-color: #1E62D0;
+  padding: 2%;
+  width: 100vw;
+  position: absolute;
+  flex-direction: row;
+  justify-content: end;
+  align-items: center;
+}
+
+.container_alunos {
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.aluno {
+  justify-content: space-between;
+}
+.img-redes {
+  align-content: space-between;  
+}
+
+.final{
+  justify-content: center;
+  text-align: center;
+  margin-top: 15px;
 }
